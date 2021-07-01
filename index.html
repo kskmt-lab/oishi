@@ -4,9 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="image/favicon.ico">
     <title>testSite</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
 </head>
+
 <body>
-    <div>hello</div>
+    <header class="page-header wrapper">
+        <h1><a href="./"><img class="logo" src="image/favicon.ico" alt="マンガ学科 KYOTO UNIVERSITY of ARTS department of MANGA"></a></h1>
+        <nav class="global">
+            <ul>
+               <li><a href="https://www.kyoto-art.ac.jp/art/department/manga/manga/">about</a></li>
+               <li><a href="https://www.kyoto-art.ac.jp/production/?author=3">blog</a></li>
+               <li><a href="">artwork</a></li>
+               <li><a href="">artist</a></li>
+               <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+   </header>
+   <section class="hero-slide">
+        <img src="sample.png" alt="">
+    </section>
+    <main>
+        <section id="about" class="tab">
+            <div class="title">about <span>マンガ学科について </span></div>   
+            <a href="https://www.kyoto-art.ac.jp/art/department/manga/manga/" class="button right about-btn">more</a>
+            <div class="about-inner">   
+                <p class="about-txt">
+                    初めてマンガを描く学生でも、一から基礎技術やストーリー構成力を学べます。プロの作家の指導や大手出版社の協力により、編集者や現役連載作家から指導してもらえます。独学で目指すよりも早いスピードで、デビューに近づくことが可能です。
+                    一方で、さまざまなビジネスシーンでマンガ表現が求められています。視野を広げて、多くの業界で通用する「マンガの力」を獲得します。
+                    同じ目標を持つ者同士で切磋琢磨し合い、マンガで人を育てていきます。
+                </p>
+            </div> 
+        </section>
+
+        <section id="blog" class="tab">
+            <div class="title tit-right">blog 
+                <span>学科ブログ</span>   
+            </div>
+            <div class="blog-inner">
+                <div class="news">
+                    <img src="sample/sample-blog1.png" alt="blog1">
+                    <p>2021年6月2日ニュース2年生PN.トボさんがメロディ賞受賞!!</p>
+                </div>
+                <div class="news">
+                    <img src="sample/sample-blog-2.png" alt="blog2">
+                    <p>2021年6月1日ニュース4年生PN.日野あんずさん受賞情報!!＆オープンキャンパスのお知らせ</p>
+                </div>
+                <div class="news">
+                    <img src="sample/sample-blog-3.png" alt="blog3">
+                    <p>2021年5月26日イベント「オンライン芸大Week」ご参加ありがとうございました！</p>
+                </div>
+                <div class="news">
+                    <img src="sample/sample-blog4.png" alt="blog4">
+                    <p>021年5月24日ニュース2年生PN.愛本エースケさん佳作受賞!!</p>
+                </div>
+                <a class="more-button left blog-btn" href="https://www.kyoto-art.ac.jp/production/?author=3">more</a>
+            </div>
+        </section>
+
+        <section id="works" class="tab">
+            <div class="title">artwork 
+                <span>学生作品</span>
+            </div>   
+            <div class="works-inner">
+                <div class="works-one">
+                    <a href="reed">読む</a>
+                    <img src="sample/sample-work.png" alt="work">
+                    <p>
+                        作品名<br>
+                        作者
+                    </p>
+                </div>
+                 <div class="works-one">
+                    <a href="reed">読む</a>
+                    <img src="sample/sample-work.png" alt="work">
+                    <p>
+                        作品名<br>
+                        作者
+                    </p>
+                </div>
+                <div class="works-one">
+                    <a href="reed">読む</a>
+                    <img src="sample/sample-work.png" alt="work">
+                    <p>
+                        作品名<br>
+                        作者
+                    </p>
+                </div>
+                <div class="works-one">
+                    <a href="reed">読む</a>
+                    <img src="sample/sample-work.png" alt="work">
+                    <p>
+                        作品名<br>
+                        作者
+                    </p>
+                </div>
+            </div>
+            <a class="more-button right" href="">more</a>            
+        </section>        
+
+        <section id="artist" class="tab">
+            <div class="title tit-right"> artist 
+                <span>出展作家</span>
+            </div>
+            <div class="artist-inner">
+                <table class="artistList">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th class="col">氏名</th>
+                            <th class="col">NAME</th>
+                            <th class="col">作品名</th>
+                            <th class="col">出展教室</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1</td>
+                            <td> 大石ひとみ</td>
+                            <td>Oishi Hitomi</td>
+                            <td><a href="">作品名</a></td>
+                            <td>Na000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">2</td>
+                            <td> 大石ひとみ</td>
+                            <td>Oishi Hitomi</td>
+                            <td><a href="">作品名</a></td>
+                            <td>Na000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">3</td>
+                            <td> 大石ひとみ</td>
+                            <td>Oishi Hitomi</td>
+                            <td><a href="">作品名</a></td>
+                            <td>Na000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">4</td>
+                            <td> 大石ひとみ</td>
+                            <td>Oishi Hitomi</td>
+                            <td><a href="">作品名</a></td>
+                            <td>Na000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">5</td>
+                            <td> 大石ひとみ</td>
+                            <td>Oishi Hitomi</td>
+                            <td><a href="">作品名</a></td>
+                            <td>Na000</td>
+                        </tr>                      
+                    </tbody>
+                </table>
+                <a class="button left ait-btn" href="">more</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-main">
+            <div class="footer-contact">
+                <h5 class="text-light">Email</h5>
+                <p class="text-white">manga-department@kua.kyoto-art.ac.jp</p>
+            </div>
+            <div class="footer-contact">
+                <h5 class="text-light">Phone</h5>
+                <p class="text-white">075 791 9710</p>
+            </div>
+            <div class="footer-contact">
+                <h5 class="text-light">Address</h5>
+                <p class="text-white">
+                    "〒606-8271"<br>
+                    "京都市左京区北白川瓜生山2-116 天心館1F"
+                </p>
+            </div>
+        </div><!--/.contact-main-->
+        <div class="wrapper">
+            <p class="mb-0 text-light">Copyright ©<script>
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+        </script><br><a href="https://www.kyoto-art.ac.jp/art/department/manga/manga/">KYOTO UNIVERSITY of ARTS department of MANGA</a></p>
+        </div>
+        
+        
+    </footer>
+    
 </body>
 </html>
